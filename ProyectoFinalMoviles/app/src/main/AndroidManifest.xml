@@ -15,7 +15,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".JoinGroupActivity"></activity>
+        <activity android:name=".JoinGroupActivity" />
+        <activity android:name=".CreateClubActivity" />
+        <activity android:name=".PerfilGroupActivity"></activity>
     </application>
 
 </manifest>
