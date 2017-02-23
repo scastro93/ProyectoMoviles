@@ -8,10 +8,10 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.proyectomoviles.proyectofinalmoviles.CreateClubActivity">
+    tools:context="com.example.proyectomoviles.proyectofinalmoviles.CreateGroupActivity">
 
     <TextView
-        android:text="Crear un club"
+        android:text="Crear un grupo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -38,7 +38,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text="escribir nombre"
         android:ems="10"
         android:layout_below="@+id/textView5"
         android:layout_alignLeft="@+id/textView5"
@@ -54,4 +54,26 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="29dp"
         android:id="@+id/button3" />
+
+    <TextView
+        android:text="Descripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText2"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_marginTop="21dp"
+        android:id="@+id/textView9"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="escribir descripcion"
+        android:ems="10"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/editText2"
+        android:layout_alignEnd="@+id/editText2"
+        android:id="@+id/editText3" />
 </RelativeLayout>

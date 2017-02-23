@@ -6,23 +6,22 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class JoinGroupActivity extends AppCompatActivity {
+public class CreateGroupActivity extends AppCompatActivity {
 
-    Button btnJoin;
+    Button btnCrear;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_join_group);
+        setContentView(R.layout.activity_crear_group);
 
-        btnJoin = (Button)findViewById(R.id.button);
+        btnCrear = (Button)findViewById(R.id.button3);
 
-        btnJoin.setOnClickListener(new View.OnClickListener(){
+        btnCrear.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(JoinGroupActivity.this, PerfilGroupActivity.class));
+                startActivity(new Intent(CreateGroupActivity.this, PerfilGroupActivity.class));
             }
         });
     }
 }
-
