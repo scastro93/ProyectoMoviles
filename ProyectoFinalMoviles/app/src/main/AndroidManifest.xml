@@ -19,18 +19,20 @@
         <activity android:name=".JoinGroupActivity" />
         <activity android:name=".CreateGroupActivity" />
         <activity android:name=".PerfilGroupActivity" />
-        <activity
-            android:name=".LoginActivity"
-            android:label="@string/title_activity_login" />
-        <activity
-            android:name=".SignUpActivity2"
-            android:label="@string/title_activity_sign_up" />
-        <activity android:name=".SignupActivity">
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".SignUpActivity2"
+            android:label="@string/title_activity_sign_up" />
+        <activity android:name=".SignupActivity">
+
         </activity>
     </application>
 
