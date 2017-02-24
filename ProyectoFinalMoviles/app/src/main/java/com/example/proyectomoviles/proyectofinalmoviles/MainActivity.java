@@ -10,6 +10,7 @@ public class MainActivity extends AppCompatActivity {
 
     Button btnCrearGrupo;
     Button btnUnirseGrupo;
+    Button btnGotoWork;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
         btnCrearGrupo = (Button)findViewById(R.id.button2);
         btnUnirseGrupo = (Button)findViewById(R.id.button5);
+        btnGotoWork = (Button)findViewById(R.id.bGoToWork);
 
         btnCrearGrupo.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -30,6 +32,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, JoinGroupActivity.class));
+            }
+        });
+
+        btnGotoWork.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, MomentActivity.class));
             }
         });
 

@@ -11,7 +11,7 @@
     tools:context="com.example.proyectomoviles.proyectofinalmoviles.MainActivity">
 
     <TextView
-        android:text="Crea un grupo para empezar a programar juntos"
+        android:text="Haz seguimiento a tu trabajo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView"
@@ -28,52 +28,38 @@
         android:layout_alignParentStart="true"
         android:id="@+id/linearLayout2">
 
-        <Button
-            android:text="profile"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/button8"
-            android:layout_weight="1"
-            android:minWidth="120dip"
-            android:minHeight="73dp" />
-
-        <Button
-            android:text="Groups"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/button7"
-            android:layout_weight="1"
-            android:minWidth="120dip"
-            android:minHeight="73dp" />
-
-        <Button
-            android:text="Home"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/button6"
-            android:layout_weight="1"
-            android:minWidth="120dip"
-            android:minHeight="73dp" />
     </LinearLayout>
 
     <Button
         android:text="Crear un grupo"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/button5"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="45dp"
+        android:layout_marginBottom="20dp"
         android:id="@+id/button2"
-        android:minWidth="240dip" />
+        android:minWidth="240dip"
+        android:layout_above="@+id/linearLayout2"
+        android:layout_alignLeft="@+id/button5"
+        android:layout_alignStart="@+id/button5" />
 
     <Button
         android:text="Unirse a un grupo"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button5"
         android:minWidth="240dp"
-        android:layout_marginBottom="101dp"
-        android:layout_above="@+id/linearLayout2"
-        android:layout_centerHorizontal="true" />
+        android:layout_above="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Ir a Trabajo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bGoToWork"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:layout_above="@+id/button5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="112dp" />
 
 </RelativeLayout>

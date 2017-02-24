@@ -11,7 +11,7 @@
     tools:context="com.example.proyectomoviles.proyectofinalmoviles.JoinGroupActivity">
 
     <TextView
-        android:text="Join a club!"
+        android:text="Entra a un grupo!"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="76dp"
@@ -22,7 +22,7 @@
         android:textSize="30sp" />
 
     <TextView
-        android:text="Enter a 4 digit code to join a club"
+        android:text="Ingresa los 4 digitos del grupo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="14dp"
@@ -35,7 +35,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="Enter code here"
         android:ems="10"
         android:layout_below="@+id/textView3"
         android:layout_centerHorizontal="true"
@@ -44,7 +43,7 @@
         android:textAlignment="textStart" />
 
     <Button
-        android:text="Join"
+        android:text="Entrar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/editText"
