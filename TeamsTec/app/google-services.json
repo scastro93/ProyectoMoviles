@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "15969506137",
+    "firebase_url": "https://techteams-5b851.firebaseio.com",
+    "project_id": "techteams-5b851",
+    "storage_bucket": "techteams-5b851.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15969506137:android:73601dfdb5b867ad",
+        "android_client_info": {
+          "package_name": "com.example.scastro81.teamstec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "15969506137-uh9se9v0csgleocpeqgdrt0refuhm5g8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXN1om9J6FSLklFDUoDuMRQEp7wKoYiZw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

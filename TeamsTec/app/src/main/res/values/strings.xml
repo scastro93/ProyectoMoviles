@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">TeamsTec</string>
+    <string name="enter_email">Escribe tu correo electronico</string>
+    <string name="enter_password">Escribe tu contraseña</string>
+    <string name="match_password">Vuelve a escribir tu contraseña</string>
+    <string name="not_have_an_account_signup_here">No tienes una cuenta? crea una!</string>
+    <string name="signup">Sign up</string>
+    <string name="user_login">User Login</string>
+
+    <string name="already_registered_signin_here">Ya tienes una cuenta? logeate aqui!</string>
+    <string name="user_registration">User Registration</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="menu_add">Moments</string>
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_team">Team</string>
+
+</resources>
